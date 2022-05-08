@@ -20,7 +20,7 @@ A website with nested CRUD (Create, Read, Update, and Delete) functionality in t
 
 *  Git clone repository to local machine:
 ```
-git clone https://github.com/rawbsrn/Anagramitator.git
+git clone https://github.com/rawbsrn/word_definer.git
 ```
 
 * Install dependencies:
