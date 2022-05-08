@@ -4,9 +4,9 @@
 
 <% if @words.any? %>
   <ul>
-    <% @words.each do |word| %>
-      <li><%= word.name %></li>
-    <% end %>
+  <% @words.each do |word| %>
+    <li><a href="/words/<%= word.id %>"><%= word.name %></a></li>
+  <% end %>
   </ul>
 <% else %>
   <p>There are currently no words to display.</p>

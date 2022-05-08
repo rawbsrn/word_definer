@@ -18,6 +18,11 @@ get('/words/new') do
   erb(:new_word)
 end
 
+get('/words/:id') do
+  @word = Word.find(params[:id].to_i())
+  erb(:word)
+end
+
 post('/words') do
   name = params[:word_name]
   word = Word.new(name, nil)
